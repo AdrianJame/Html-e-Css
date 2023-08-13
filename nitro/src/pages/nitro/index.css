@@ -1,0 +1,107 @@
+.prin{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.prinf{
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+
+.prinf > h1{
+justify-content: center;
+font: 48px 'nitro4';
+padding: 100px;
+}
+
+.cima{
+
+    display: flex;
+    flex-direction: row; 
+
+    
+    
+}
+
+
+.cima div{
+
+    background-color:  #f6f6f6;
+    border-radius: 15px;
+    height: 40vh;
+    width: 40vw;
+    margin-right: 20px;
+    text-align: center;
+    font: 13px 'nitro2';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.cima div:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.253);
+}
+
+.cima h1{
+    width: 400px;
+}
+
+.baixo h1{
+    width: 400px;
+    margin-bottom: 20px;
+}
+.baixo{
+
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.baixo div{
+
+    background-color:  #f6f6f6;
+    border-radius: 15px;
+    height: 40vh;
+    width: 40vw;
+    margin-right: 20px;
+    text-align: center;
+    font: 13px 'nitro2';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.baixo div:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.253);
+}
+
+a{
+background-color: #23272a;
+border-radius: 50px;
+color: white;
+height: 45px;
+width: 300px;
+text-align: center;
+padding: 10px;
+font: 20px 'nitro3';
+text-decoration: none;
+margin-bottom: 20px;
+}
+
+a:hover{
+    background-color: #313436;
+    box-shadow: 0px 0px 5px black;
+}
+
